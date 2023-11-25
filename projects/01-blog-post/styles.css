@@ -3,9 +3,9 @@
 
 /* Global Styling */
 :root {
-    --white: ; /* Define your main color variable */
-    --black: ; /* Define your secondary color variable */
-    --green: ; /* Define your tertiary color variable */
+    --primary-color: white: ; /* Define your main color variable */
+    --secondary-color: black: ; /* Define your secondary color variable */
+    --tertiary-color: green: ; /* Define your tertiary color variable */
     --box-shadow: ; /* Define your box shadow variable */
 }
 
@@ -13,54 +13,54 @@
 *,
 *::after,
 *::before { 
-    /* padding: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif; */
+    font-family: 'Lato', sans-serif;
 }
 
 a {
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 ol, ul, li {
-    /* list-style: none; */
+    list-style: none;
 }
 
 html {
-    /* font-size: 62.5%; */
+    font-size: 62.5%;
 }
 
 html:focus-within {
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
   
 body {
-    /* min-height: 100vh;
+    min-height: 100vh;
     text-rendering: optimizeSpeed;
-    line-height: 1.5; */
+    line-height: 1.5;
 }
 
 img, picture {
-    /* max-width: 100%; */
+    max-width: 100%; 
 }
 
 article, aside, footer, header, nav, section {
-	/* display: block; */
+	display: block; 
 }
 
 body {
-    /* background-color: #eee;
-    overflow-x: hidden; */
+    background-color: #eee;
+    overflow-x: hidden;
 }
 
 /* Navigation Styling */
 
 /* Step 1: Navigation Bar Styles */
 nav {
-    /* display: ;
-    justify-content: ;
-    align-items: ;
+    display: block;
+    justify-content: center;
+    align-items: center;
     flex-wrap: ;
     flex-direction: ;
     margin: ; 
@@ -70,16 +70,16 @@ nav {
 
 /* Step 2: Navigation Text Styles */
 nav p {
-    /* font-size: ;
+    font-size: 20;
     font-weight: ;
     color: ;
     cursor: ;
-    transition: ; */
+    transition: ; 
 }
 
 /* Step 3: Navigation Span Styles */
 nav p span {
-    /* color: ;
+    color: ;
     transition: ; */
 }
 
@@ -116,7 +116,7 @@ nav ul li a {
 
 /* Step 8: Navigation List Item Anchor Hover Styles */
 nav ul li:hover > a {
-    /* color: ;
+    color: ;
     transition: ; */
 }
 
