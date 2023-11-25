@@ -54,6 +54,9 @@ body {
     overflow-x: hidden;
 }
 
+.image{
+    float: left;
+}
 /* Navigation Styling */
 
 /* Step 1: Navigation Bar Styles */
