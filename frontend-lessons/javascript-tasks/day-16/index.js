@@ -22,7 +22,7 @@ console.log(result);
 const result1=addNumbers(8,31);
 console.log(result1);
 // 6. Create a function named `calculateAverage` that takes an array of numbers as a parameter and returns the average.
-function calculateAverage{
+function calculateAverage(nums){
     let sum=0;
     for (let i = 0; i < nums.length; i++) {
         sum += nums[i];
