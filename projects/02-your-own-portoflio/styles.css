@@ -1,0 +1,32 @@
+/* GO WILD AND BE CREATIVE! */
+body{
+    background-color: rgba(15,15,15,255);
+    color: white;
+    margin: 0px;
+}
+
+.navbar{
+    font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.navbar p{
+    font-size: 10px;
+    top: 10px;
+    cursor: default;
+    margin-left: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 10px;;
+    font-size: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
