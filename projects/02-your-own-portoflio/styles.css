@@ -5,6 +5,9 @@
     }
 
 }
+:root{
+    background-color: rgba(15,15,15,255);
+}
 body{
     background-color: rgba(15,15,15,255);
     color: white;
