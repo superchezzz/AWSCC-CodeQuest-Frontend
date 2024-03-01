@@ -18,7 +18,7 @@
         <header>
             <nav class="navbar">
                 <p><span style="color:green">Front-</span>End</p>
-                <ul>
+                <ul class="navlist">
                     <li><a href=" ">Home</a></li>
                     <li><a href=" ">Blog</a></li>
                     <li><a href=" ">Popular</a></li>
@@ -27,13 +27,14 @@
             </nav>
             <section>
                 <div class="frontend">
-                    <h1>Front-end</h1>
-                    <p>Dive into the world of web development, as this resource sets you on the path to becoming a web design virtuoso!</p>
+                    <h1 class="frontend-h1">Front-end</h1>
+                    <p class="frontend-p">Dive into the world of web development, as this resource sets you on the path to becoming a web design virtuoso!</p>
                 </div>
                </section>
         </header>
 
         <main>
+        <div class="main">
             <div class="blog"> 
                 <article> 
                         <div class="blog-post">
@@ -50,29 +51,25 @@
                     </article>
                     <article>
                         <div class="blog-post">
-                          <img src= "images/img2.jpeg" alt="Mastering the Art: Creating Interactive Web Experiences" width="200px" height="300px"> 
+                          <img class="blog-img" src= "images/img2.jpeg" alt="Mastering the Art: Creating Interactive Web Experiences" width="200px" height="300px"> 
                           <div class="text-content">
                             <a ><b>Mastering the Art: Creating Interactive Web Experiences</b></a>
                             <p >Posted on November 12, 2023 by AWSCC-DSWD</p>
                             <p>Explore the art of creating contact forms, surveys, and more. Understand how to collect user data, validate inputs, and enhance the user experience. From simple text inputs to radio buttons and dropdown menus, we'll cover it all in this exciting journey into web forms.</p>
-                        </article>
-                        <article>
+                    </article>
+                    <article>
                         <div class="blog-post">
                           <img src= "images/img3.jpeg" alt="Revolutionize Web Design: Crafting Dynamic Layouts" width="200px" height="300px"> 
                           <div class="text-content">
-                            
                             <a><b>Revolutionize Web Design: Crafting Dynamic Layouts</b></a>
                             <p>Posted on November 11, 2023 by AWSCC-DSWD</p>
                             <p>Unlock the magic of CSS Flexbox and transform your web layout! Say goodbye to the days of complex grids and welcome the simplicity and flexibility of Flexbox. Learn how to create responsive and dynamic layouts that adapt effortlessly to different screen sizes.</p>
                           </div>
-                        </article>
-                
-                      </div>
-            </div>
-
+                        </div>
+                    </article>
+                    </div>
             
-            <aside class="aside"> <!-- Inside the main is a semantic element for "sidebar" -->
-                <!-- Step 5: Inside the aside section, create two divs, one for popular-posts, and one for social-side -->
+            <aside class="aside">
                 <div><h4 class="popular">POPULAR POSTS</h4></div>
                 <div class="posts">
                     <article>
@@ -119,16 +116,17 @@
                     </div>
                     </article>
                 </div>
-                <div> 
-                    <h4 class="social">LET'S GET SOCIAL!</h4>
-                        <div>
-                            <a href="https://www.facebook.com"> <img src="images/social/facebook.png" height="30px"> </a>
-                            <a href="https://twitter.com/"> <img src="images/social/twitter.png" height="30px"> </a>
-                            <a href="https://www.instagram.com"> <img src="images/social/instagram.png" height="30px"> </a>
-                            <a href="https://www.linkedin.com"> <img src="images/social/linkedin.png" height="30px"> </a>
+                <div class="social"> 
+                    <h4>LET'S GET SOCIAL!</h4>
+                        <div class="social-container">
+                            <a href="https://www.facebook.com"><img src="images/social/facebook.png" height="50px"> </a>
+                            <a href="https://twitter.com/"><img src="images/social/twitter.png" height="50px"> </a>
+                            <a href="https://www.instagram.com"><img src="images/social/instagram.png" height="50px"> </a>
+                            <a href="https://www.linkedin.com"><img src="images/social/linkedin.png" height="50px"> </a>
                         </div>
                 </div>
             </aside>
+        </div>
         </main>
 
         <footer class="footer">
@@ -147,7 +145,7 @@
                 </div>
             </div>
             <hr>
-            <p>2023 Blog Structure</p>
+            <p class="blog-structure">2023 Blog Structure</p>
         </footer>
         
     </div>
