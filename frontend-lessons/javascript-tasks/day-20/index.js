@@ -6,17 +6,25 @@
 // 2. Use JavaScript to select and log the following elements to the console:
 
 //    a. All paragraphs on the page using `getElementsByTagName`.
-   
+    const pElements = document.getElementsByTagName("p");
+    console.log(pElements);
+
 //    b. All elements with the class "info" using `getElementsByClassName`.
-   
+   const infoElements= document.getElementsByClassName("info");
+   console.log(infoElements);
 //    c. The element with the ID "header" using `getElementById`.
+    const myHeader = document.getElementById("header");
+    console.log(myHeader);
    
 //    d. The first element with the class "highlight" using `querySelector`.
-
+   const element= document.querySelector(".highlight");
+   console.log(element);
 // Task 2: Modifying Elements
 
 // 3. Change the text content of the second paragraph to "This paragraph is now updated!".
+    pElements[1].textContent="This paragraph is now updated!";
 // 4. Change the background color of the div with the ID "header" to a different color of your choice.
+myHeader.style.backgroundColor="yellow";
 
 // Task 3: Creating and Appending Elements
 
