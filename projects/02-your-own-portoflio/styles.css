@@ -99,22 +99,25 @@
     letter-spacing: 1px;
     text-align: center;
 }
+/* Media Query for max-width: 1000px */
 @media (max-width: 1000px) {
     .navigation-bar,
     .landing-page {
         width: 100%;
         margin: auto;
     }
-    
-    .main-plain, 
+
+    .main-plain,
     .main-with-outline {
         font-size: 6rem;
-        margin: auto; line-height: 1.2; 
+        margin: auto;
+        line-height: 1.2;
     }
 }
 
+/* Media Query for max-width: 768px */
 @media (max-width: 768px) {
-    html{
+    html {
         margin: auto;
     }
     .navigation-bar,
@@ -122,22 +125,23 @@
         width: 100%;
         margin: auto;
     }
-    .main-plain, 
+    .main-plain,
     .main-with-outline {
         font-size: 4rem;
         margin: auto;
     }
 }
 
+/* Media Query for max-width: 600px */
 @media (max-width: 600px) {
     .navigation-bar,
     .landing-page {
         width: 100%;
-        display: flex; 
+        display: flex;
     }
-    .main-plain, 
+    .main-plain,
     .main-with-outline {
-        font-size: 4rem; 
+        font-size: 4rem;
         margin: auto;
     }
 }
@@ -151,6 +155,7 @@
 
 .about-page{
     background-color: white;
+    height: 600px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -192,14 +197,120 @@
     margin-right: 130px;
     margin-top: -90px;
  
- 
     mix-blend-mode: multiply;
 
 }
 
-#aboutme{
-    height: 500px;
-    background-color: rgba(41,62,73,255);
-    margin: 100px 0;
-    display: block;
+#skills {
+    padding: 0;
+    margin:auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.skills-text{
+    font-family: "League Spartan","Roboto";
+    text-align: center;
+    color:#01303f;
+    font-size: 2rem;
+    padding: 30px 0px 10px 0px;
+}
+
+.skills {
+    width: 1200px;
+    margin: auto;
+    font-family: "Lato";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.web-dev,
+.programming-language,
+.data-science,
+.video-editing{
+    width: calc(40% - 30px);
+    border: solid 2px #02577a;
+    box-shadow: 5px 10px #02577a;
+    margin: 10px;
+    height: 170px;
+}
+.skills-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.filmora{
+    border-radius: 15px;
+}
+.skills h3 {
+    margin-right: 10px;
+    color:#02577a;
+    font-family: "Roboto Condensed";
+}
+
+.skills p {
+    margin: 0 10px 0 0;
+}
+
+
+
+.organizations{
+    height:auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.organizations-text{
+    font-family: "League Spartan";
+    font-size: 2rem;
+    text-align: center;
+    color: #01303f;
+    padding-top:80px;
+}
+
+.organizations img{
+    border-radius: 50%;
+}
+.organizations-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.organizations-images img{
+    margin:30px;
+}
+
+#projects{
+    font-family: "League Spartan";
+    font-size: 2rem;
+    margin: auto;
+}
+
+.projects h1{
+    text-align: center;
+    padding-top: 60px;
+}
+.projects p{
+    text-align: center;
+    padding:0;
+    padding-bottom: 100px;
 }
