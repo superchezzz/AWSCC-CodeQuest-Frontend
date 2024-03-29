@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 22: Assignment- Removing DOM Elements</title>
+</head>
+<body>
+    <ul id="myList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    <script>
+        const myList= document.getElementById('myList');
+        const removeSpecificItem= myList.children[3];
+        myList.removeChild(removeSpecificItem);
+
+
+        const removeLastItem= myList.lastElementChild;
+        removeLastItem.remove();
+
+        myList.innerHTML='';
+    </script>
+</body>
+</html>
