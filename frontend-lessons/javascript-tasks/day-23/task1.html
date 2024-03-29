@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners: Assignment Day 23</title>
+</head>
+<body>
+    <button id="myButton">Click Me!</button>
+    <button id="doubleClickButton">Double Click Me!</button>
+    <button id="mouseenterButton">Hover Me</button>
+    <script>
+        const button= document.getElementById('myButton');
+        button.addEventListener('click', function(event){
+            alert("Button Clicked")
+        } )
+
+        const doubleClickButton= document.getElementById('doubleClickButton');
+        doubleClickButton.addEventListener('dblclick', function(event){
+            alert("Button Double Clicked :>")
+        })
+        const mouseenterButton= document.getElementById('mouseenterButton');
+        mouseenterButton.addEventListener("mouseenter", function(event){
+            mouseenterButton.style.backgroundColor="lightblue";
+        })
+        mouseenterButton.addEventListener("mouseleave", function(event){
+            mouseenterButton.style.backgroundColor=""
+        })
+    </script>
+</body>
+</html>
