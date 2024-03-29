@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 22: Assignment- Creating an Element with JavaScript</title>
+</head>
+<body>
+    <div id="dynamicContainer">
+
+    </div>
+    <script>
+        const dynamicContainer= document.getElementById("dynamicContainer");
+        const image= document.createElement('img');
+
+        image.src= 'https://example.com/image.jpg';
+        image.alt= "Dynamically created image"
+        dynamicContainer.append(image);
+
+        const catImg= document.createElement('img');
+        catImg.src= 'https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/6/2022/12/shutterstock_781327003-1-768x512.jpg';
+        catImg.alt= "Cute Cat"
+        catImg.height=200;
+        dynamicContainer.append(catImg);
+    </script>
+</body>
+</html>
+
