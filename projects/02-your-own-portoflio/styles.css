@@ -30,10 +30,7 @@
     height: 25px;
     transition: width 2s;
 }
-.navigation-bar img:hover{
-    width: 300px;
-    height: auto;
-}
+
 .navigation-bar ul{
     margin-left: auto;
     margin-right: 2rem;
