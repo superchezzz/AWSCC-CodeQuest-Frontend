@@ -30,14 +30,14 @@ nav img:last-child {
 }
 
 h1{
-    font-family: "League Spartan";
+    font-family: "League Spartan", Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 40px auto;
     font-size: 2rem;
 }
 
 p{
-    font-family: "Lato";
+    font-family: "Lato", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
     color: #05192d;
@@ -117,9 +117,11 @@ p{
         align-items: center;
         justify-content: center;
         margin: auto;
+        height: 20px;
     }
     .github-logo {
-        display: none;
+        width: 20px;
+        height: 20px;
     }
     h1 {
         font-size: 1.5rem;
@@ -163,13 +165,15 @@ p{
     }
     nav img {
         margin-bottom: 10px;
-
-
-        height: 35px;
+        width: auto;
+        height: 30px;
     }
-
+    .github-logo{
+        width: 40px;
+        height: 40px;
+    }
     h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 60px auto;
     }
 
@@ -212,16 +216,32 @@ p{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 1200px;
+        width: fit-content;
         margin: 0 auto; 
         padding: 0 20px;
     }
     nav img{
         width: auto;
-    
+        height: 35px;
+    }
+    .github-logo{
+        width: 40px;
+        height: 40px;
     }
     nav img:last-child {
         align-items: left;
         margin-left: auto; 
     }
+
+    h1{
+        text-align: center;
+        margin: 40px auto;
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
 }
