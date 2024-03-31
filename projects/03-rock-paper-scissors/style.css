@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -157,4 +158,124 @@ h2 {
 
 #player2-container {
     right: 10%;
+}
+
+
+
+@media screen and (max-width: 575.98px) {
+    *{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .choice-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    #reset-game-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    #game-status{
+        margin-top: 100px;
+        font-size: 1.5rem;
+        width: 300px;
+
+    }
+    .player-container {
+        width: 100px;
+        position: absolute;
+        margin-top: 70px;
+        padding: 0;
+    }
+    h2{
+        font-size: 1rem;
+    }
+
+    .choices{
+        margin-top: 100px;
+    }
+    .choice-display img{
+        margin-top: -375px;
+        width: auto;
+        max-height: 100px;
+    }
+    .choice-btn img{
+        height: 30px;
+        width: 30px;
+    }
+    #reset-game-btn{
+        margin-top: 30px;
+        font-size: 0.7rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991.98px) {
+    *{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .choice-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    #reset-game-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #game-status{
+        margin-top: 130px;
+        font-size: 2.25rem;
+        width: 400px;
+
+    }
+    .player-container {
+        width: 300px;
+        position: absolute;
+        margin-top: 70px;
+        padding: 0;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+
+    .choices{
+        margin-top: 300px;
+    }
+    .choice-display img{
+        margin-top: -100px;
+        width: auto;
+        max-height: 300px;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) {
+    .choice-display{
+        height: 500px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1439.98px) {
+    /* Styles for devices with width between 1024px and 1439.98px */
+}
+
+@media screen and (min-width: 1440px) {
+
 }
